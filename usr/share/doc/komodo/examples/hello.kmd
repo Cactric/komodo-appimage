@@ -1,0 +1,25 @@
+KMD
+00000000: EA000007    ;     B main
+00000004:             ;     
+00000004: 48 65 6C 6C ; hello   DEFB    "Hello, World\n",0
+00000008: 6F 2C 20 57 ; 
+0000000C: 6F 72 6C 64 ; 
+00000010: 0A 00       ; 
+00000012: 47 6F 6F 64 ; goodbye DEFB    "Goodbye Universe\n",0
+00000016: 62 79 65 20 ; 
+0000001A: 55 6E 69 76 ; 
+0000001E: 65 72 73 65 ; 
+00000022: 0A 00       ; 
+00000024:             ; 
+00000024:             ;     ALIGN
+00000024: E24F0028    ; main    ADR R0, hello
+00000028: EF000003    ;     SWI 3
+0000002C: E24F0022    ; ADR R0, goodbye
+00000030: EF000003    ; SWI 3
+00000034: EF000002    ; SWI 2
+00000038:             ; 
+
+Symbol Table: Labels
+: hello                             00000004  Local -- ARM
+: goodbye                           00000012  Local -- ARM
+: main                              00000024  Local -- ARM
