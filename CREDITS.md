@@ -13,4 +13,4 @@ The binaries for the Komodo program were taken from the University of Nottingham
 	As far as I know they've used the official [source code](https://github.com/UoMCS/komodo)
 The binaries for the libraries (like gtk and glib) were taken from deb files from an old version of Ubuntu
 
-Thank you to James Harvey for sending me the Komodo binaries from the UoN VM
+Thank you to everyone who helped me in trying to get it installed so I could make an AppImage of it.
