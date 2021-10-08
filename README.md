@@ -7,6 +7,9 @@ Komodo is a debugger for ARM assembly, written by the University of Manchester
 
 I made an AppImage for it because it's a pain to get it to compile on modern distros since it relies on old versions of gtk and glib
 
+## Downloading
+Go to the releases page on the right.
+
 ## Running
 Running the AppImage without any arguments will run kmd inside with the -e flag (this is so that it will work just by double-clicking on distros that support it)
 
