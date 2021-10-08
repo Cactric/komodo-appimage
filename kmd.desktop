@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=Komodo
+Comment=Komodo Manchester Debugger (for ARM assembly)
+Exec=kmd
+Terminal=false
+Type=Application
+Icon=pkomodoicon
+StartupNotify=false
+Categories=Development;
