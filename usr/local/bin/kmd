@@ -1,0 +1,24 @@
+#!/bin/sh
+
+# Find what the base path of this folder is
+EXECPATH="$(dirname $(realpath $0))"
+
+#echo "$EXECPATH"
+
+KMD=$EXECPATH/../kmd-1.5.0/
+
+
+LD_LIBRARY_PATH=$EXECPATH/../../lib:$LD_LIBRARY_PATH
+export LD_LIBRARY_PATH
+
+PATH=$KMD/bin:$EXECPATH:$PATH
+export PATH
+
+# Allow people to just double click the app image and have it work
+
+if [ -z $@ ]; then
+    exec $KMD/bin/kmd -e
+else
+    exec $KMD/bin/kmd $@
+fi
+
