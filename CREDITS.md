@@ -9,7 +9,7 @@ Authors of Komodo (as listed in the About box in the program):
 
 [Komodo Homepage](https://studentnet.cs.manchester.ac.uk/resources/software/komodo)
 
-The binaries for the Komodo program were taken from the University of Nottingham's cloud Linux VM
+The binaries for the Komodo program were taken from my university's cloud Linux VM
 	As far as I know they've used the official [source code](https://github.com/UoMCS/komodo)
 The binaries for the libraries (like gtk and glib) were taken from deb files from an old version of Ubuntu
 
